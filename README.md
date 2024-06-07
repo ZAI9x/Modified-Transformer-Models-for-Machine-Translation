@@ -1,4 +1,4 @@
 # Modified-Transformer-Models-for-Machine-Translation
 Deep Learning course project 
 
-Attached is the report and the code
+A modified transformer architecture for machine translation from different languages such as Arabic Portuguese and English
