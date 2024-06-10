@@ -29,6 +29,7 @@ o Resnet 2 layers with skip connections.
 + Removing the Encoder Part
 + Removing the Decoder Part
 
+### For more Details about the project kindly refer to the project report.
 
 ## Sources:
 +	https://colab.research.google.com/drive/1OMCcIEhH3qTGPy_1Z59akDFm9m9HeTPv
