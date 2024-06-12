@@ -4,7 +4,7 @@
 In our project, we developed a modified Transformer model for Portuguese to English machine translation. Our modifications included adding a Masked Multi-Head Attention component to the encoder, and also experimenting with different feedforward architectures such as ResNet, CNN, and LSTM. We also removed the encoder and decoder parts of the Transformer model interchangeably to evaluate their importance in the architecture. Through careful evaluation and comparison with the original performance, we gained insights into the strengths and weaknesses of different architectural choices for machine translation tasks. Our project highlights the flexibility and adaptability of the Transformer model architecture, and demonstrates the importance of experimentation in improving translation quality and training efficiency.
 
 ## Features of the project
-### Features of Actual Transformer-Model are:
+### Features of Actual Transformer-Model:
 + Self-Attention Mechanism: The Transformer relies heavily on self-attention mechanisms, which allow each word in the input sequence to attend to other words, capturing dependencies and relationships across the entire sequence. Self-attention enables the model to consider context from different positions without explicitly using recurrent or convolutional layers.
   
 + Multi-Head Attention: The Transformer employs multiple attention heads to capture different types of information. Each head performs a separate weighted sum over the input sequence, providing multiple perspectives and enhancing the model's ability to attend to different parts of the sequence simultaneously.
@@ -19,7 +19,7 @@ In our project, we developed a modified Transformer model for Portuguese to Engl
   
 + Masking: Masking is applied to the decoder's self-attention layer to prevent it from attending to future positions during training, ensuring that each prediction only depends on previously generated outputs.
 
-### Modifications of the project
+### Modifications of the project:
 + Modifying the Feedforward Part
 o CNN layers, residual connections, and layer normalization , Relu activation
 o Convolutional Layer: GELU (Gaussian Error Linear Unit) Activation
